@@ -1,0 +1,229 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link type="text/css" href="{% static 'mainapp/css/style.css' %}" rel="stylesheet" />
+
+
+
+
+	<!-- Шрифти -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../static/mainapp/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+			<div class="header">
+
+			<nav class="navbar navbar-expand-lg " style="background-color: black;">
+				<div class="container">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 head_list  "   >
+							<li class="nav-item ">
+							  <a class="nav-link active  " aria-current="page" href="#">Головна</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link  " href="main-page.html">Доставка та оплата</a>
+							</li>
+							<li class="nav-item ">
+							  <a class="nav-link " href="garanti.html"> Гарантія/ Повернення </a>
+
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link  " href="#" >Контакти</a>
+							</li>
+						 </ul>
+
+
+					</div>
+			</nav>
+				 <div class="midleheader">
+					 <div class="container ">
+						<nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+							<div class="container">
+								<div class="row">
+									<div class="col contantd photo-item " style="width: 230px; height: 100%;">
+										<a class="navbar-brand" href="#">
+
+                                            <img src="../../static/mainapp/media/imgonline-com-ua-Replace-color-tc87FXAM0b.jpg"/></a>
+									</div>
+									<div class="col-md-auto container-fluid phone-item">
+										<div class="phone "  >
+											<a class="phone_1 col " href="tel:#">+38 (098) 063 8346</a>
+										 </div>
+										 <div class="timework">
+											Звоніть з 10:00 до 20:00 <br> або закажіть
+											<a href="#" class="callme text-warning">зворотній дзвінок</a>
+										</div>
+									</div>
+									<div class=" cart col col-lg-2">
+										<a class="navbar-brand" href="#">
+											<span class="cartname">Корзина</span><br>
+											<span class="whatinside">Корзина пуста</span>
+										</a>
+									</div>
+								 </div>
+							  </div>
+						 </nav>
+					 </div>
+			</div>
+		</div>
+		<div class="search_box">
+			<header class="p-0 text-white" style="background: black;">
+				<div class="container" >
+				  <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start" style="background-color: black;">
+					 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+						<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+					 </a>
+
+					 <ul class="nav col-12 col-lg-auto me-lg-auto mb-0 justify-content-center mb-md-0 catalog">
+					<li><a href="#" class="nav-link px-2 text-white">Каталог товарів</a></li>
+					 </ul>
+
+					 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex">
+						<input type="search" class="form-control form-control-dark" placeholder="Пошук..." aria-label="Search">
+						<button class="btn btn-outline-warning me-4 button-search" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+							<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+						 </svg></button>
+					</form>
+
+				  </div>
+				</div>
+			 </header>
+
+		<div class="topsale-product">
+			<div class="container">
+				<div class="title">Новинки</div>
+				<div class="card-product">
+					<section class="py-5">
+						<div class="container px-4 px-lg-5 mt-5">
+							 <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-3 justify-content-center">
+								  <div class="col mb-4 product-card">
+										<div class="card h-200 w-200">
+											 <!-- Product image-->
+											 <img class="card-img-top" src="../../static/mainapp/media/thumb_agm-x2_agm.org_22.jpg" alt="..." />
+											 <!-- Product details-->
+											 <div class="card-body p-4">
+												  <div class="text-center">
+														<!-- Product name-->
+														<h5 class="fw-bolder">AGM A9 4/64gb</h5>
+														<!-- Product price-->
+														<div class="price">7 899₴</div>
+
+												  </div>
+											 </div>
+											 <!-- Product actions-->
+											 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent cart-icon">
+												  <div class="text-center cart-icon"><a class="btn btn-warning mt-auto cart-icon" href="#"> Додати до корзини</a></div>
+											 </div>
+										</div>
+								  </div>
+								  <div class="col mb-4 product-card">
+									<div class="card h-200 w-200">
+										 <!-- Product image-->
+										  <img class="card-img-top" src="../../static/mainapp/media/thumb_agm-x2_agm.org_22.jpg" alt="..." />
+										 <!-- Product details-->
+										 <div class="card-body p-4">
+											  <div class="text-center">
+													<!-- Product name-->
+													<h5 class="fw-bolder">AGM A9 4/64gb</h5>
+													<!-- Product price-->
+													<div class="price">7 899₴</div>
+
+											  </div>
+										 </div>
+										 <!-- Product actions-->
+										 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent cart-icon">
+											  <div class="text-center cart-icon"><a class="btn btn-warning mt-auto cart-icon" href="#"> Додати до корзини</a></div>
+										 </div>
+									</div>
+							  </div>
+							  <div class="col mb-4 product-card">
+								<div class="card h-200 w-200">
+									 <!-- Product image-->
+									  <img class="card-img-top" src="../../static/mainapp/media/thumb_agm-x2_agm.org_22.jpg" alt="..." />
+									 <!-- Product details-->
+									 <div class="card-body p-4">
+										  <div class="text-center">
+												<!-- Product name-->
+												<h5 class="fw-bolder">AGM A9 4/64gb</h5>
+												<!-- Product price-->
+												<div class="price">7 899₴</div>
+
+										  </div>
+									 </div>
+									 <!-- Product actions-->
+									 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent cart-icon">
+										  <div class="text-center cart-icon"><a class="btn btn-warning mt-auto cart-icon" href="#"> Додати до корзини</a></div>
+									 </div>
+								</div>
+						  </div>
+						  <div class="col mb-4 product-card">
+							<div class="card h-200 w-200">
+								 <!-- Product image-->
+								  <img class="card-img-top" src="../../static/mainapp/media/thumb_agm-x2_agm.org_22.jpg" alt="..." />
+								 <!-- Product details-->
+								 <div class="card-body p-4">
+									  <div class="text-center">
+											<!-- Product name-->
+											<h5 class="fw-bolder">AGM A9 4/64gb</h5>
+											<!-- Product price-->
+											<div class="price">7 899₴</div>
+
+									  </div>
+								 </div>
+								 <!-- Product actions-->
+								 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent cart-icon">
+									  <div class="text-center cart-icon"><a class="btn btn-warning mt-auto cart-icon" href="#"> Додати до корзини</a></div>
+								 </div>
+							</div>
+					  </div>
+					  <div class="col mb-4 product-card">
+						<div class="card h-200 w-200">
+							 <!-- Product image-->
+							  <img class="card-img-top" src="../../static/mainapp/media/thumb_agm-x2_agm.org_22.jpg" alt="..." />
+							 <!-- Product details-->
+							 <div class="card-body p-4">
+								  <div class="text-center">
+										<!-- Product name-->
+										<h5 class="fw-bolder">AGM A9 4/64gb</h5>
+										<!-- Product price-->
+										<div class="price">7 899₴</div>
+
+								  </div>
+							 </div>
+							 <!-- Product actions-->
+							 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent cart-icon">
+								  <div class="text-center cart-icon"><a class="btn btn-warning mt-auto cart-icon" href="#"> Додати до корзини</a></div>
+							 </div>
+						</div>
+				  </div>
+							 </div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		</div>
+	</div>
+
+
+
+
+	 <!-- Footer-->
+	 <footer class="py-5 "style='background: black;'>
+		<div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
